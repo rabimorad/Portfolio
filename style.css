@@ -5,7 +5,6 @@ Description: Portfolio av mig
 Version: 0.1
 Text Domain: localhost
 */
-
 * {
     margin:0;
     padding:0;
@@ -90,14 +89,14 @@ li.current_page_item a{
 }
 .title{
     font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 94px;
-line-height: 105px;
-
-color: #000000;
-}   
-    /* TEXT PRESENTATION */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 94px;
+    line-height: 105px;
+    
+    color: #000000;
+}
+/* TEXT PRESENTATION */
     .textbox{
         position: relative;
     width: 589px;
@@ -115,25 +114,25 @@ color: #000000;
     color: #000000;
     }
         /* IMAGE TEXT */
-.imgtext-container{
-    height: 620px;
-}
-.img1{
-    position: absolute;
-    width: 865px;
-    height: 477px;
-    left: 79px;
-    filter: saturate(0);
-}
-.worktext{
-    position: absolute;
-width: 525px;
-height: 210px;
-left: 836px;
-margin-top: 260px;
-}
-.work-1{
-    font-family: Roboto;
+        .imgtext-container{
+            height: 620px;
+        }
+        .img1{
+            position: absolute;
+            width: 865px;
+            height: 477px;
+            left: 79px;
+            filter: saturate(0);
+        }
+        .worktext{
+            position: absolute;
+            width: 525px;
+            height: 210px;
+            left: 836px;
+            margin-top: 260px;
+        }
+        .work-1{
+            font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 90px;
@@ -169,9 +168,9 @@ color: #000000;
     text-decoration: underline;
     color: #000000;
     }
-section.standard {
-	padding: 40px 0;
-}
+    section.standard {
+        padding: 30px 0 30px 0;
+    }
 .list-group-item {
     border-width: 0px 1 6px;
     display: flex;
@@ -205,139 +204,7 @@ section.standard {
     -o-transition: color 1s ease-in-out;
     transition: color 1s ease-in-out;
   }
-    
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    body{
-        height: 580px;
-    }
-    .menu{
-        display: flow-root;
-    }
-    .maintitle{
-        position: relative;
-    background: none;
-    width: 200px;
-    height: 200px;
-    left: 34px;
-    margin-top: 64px;
-    }
-    .title{
-        font-size: 3.2em;
-        line-height: 44px;
-    }
-    .textbox{
-        width: 270px;
-    height: 243px;
-    left: 21px;
-    }
-    .p{
-        font-size: 1em;
-    line-height: 23px;
-    }
-    .imgtext-container {
-        height: 200px;
-    }
-    .img1{
-        width: 250px;
-    height: 154px;
-    left: 41px;
-    }
-    .worktext{
-        position: absolute;
-    width: 200px;
-    height: 200px;
-    left: 159px;
-    margin-top: 99px;
-    }
-    .work-1{
-        font-size: 33px;
-    line-height: 29px
-    }
-    .list-group-item p{
-        font-size: 12px;
-    }
-    .footer-title{
-        position: absolute;
-        width: 100% !important;
-        height: 105px !important;
-        left: 70px !important;
-        margin-top: 20px !important;
-        
-    }
-    .foot{
-        font-size: 38px !important;
-        line-height: 40px !important;
-    }
-    .footer-menu{
-        left: 152px !important;
-        margin-top: 110px !important;
-    }
-    .about-maintitle {
-        
-        width: 80% !important;
-    height: 100% !important;
-    margin-top: 75px;
-    left: 36px !important;
-    }
-    .about-title{
-        font-size: 30px !important;
-    line-height: 40px !important;
-    }
-    .about-textbox {
-        position: relative !important;
-        width: 80% !important;
-        height: 230px !important;
-        left: 10px !important;
-        margin: 4px !important;
-    }
-    .about-p {
-        font-size: 12px !important;
-        line-height: 20px !important;
-    }
-    .img-about {
-        position: relative !important;
-        width: 85% !important;
-        height: 80% !important;
-        left: 24px !important;
-    }
-    .pro-text {
-        font-size: 32px !important;
-        line-height: 57px !important;
-    }
-    .imgWORK{
-        position: relative !important;
-    width: 80% !important;
-    height: 80% !important;
-    left: 101px !important;
-    margin-top: 34px !important;
-    }
-    .work-text {
-        position: relative !important;
-        width: 100% !important;
-        height: 172px !important;
-        left: 14px !important;
-        margin-top: -311px !important;
-    }
-    .workPRO-1{
-    font-size: 38px !important;
-    line-height: 354px !important;
-    }
-    .work-textbox {
-        position: relative !important;
-        width: 90% !important;
-        height: 261px !important;
-        left: 18px !important;
-        margin-top: 89px !important;
-    }
-    .bigimg{
-        position: relative !important;
-    width: 85% !important;
-    height: 80% !important;
-    left: 24px !important;
-}
-    }
-}
+
 /*------------------------------------------------*/
                     /* ABOUT */
 /*------------------------------------------------*/
@@ -359,7 +226,7 @@ section.standard {
 .about-textbox{
     position: relative;
     width: 589px;
-    height: 126px;
+    height: 226px;
     left: 401px;
     margin: 60px;
 }
@@ -379,7 +246,6 @@ width: 1198px;
 height: 661px;
 left: 60px;
 filter: saturate(0);
-
 }
 /* PROJECT TITLE */
 .project{
@@ -397,7 +263,6 @@ line-height: 57px;
 
 color: #000000;
 }
-
 /* PROJECT IMG */
 .browser-alert {
     margin: 0;
@@ -514,18 +379,6 @@ color: #000000;
     /* filter: saturate(0); */
     transition: all 0.3s ease-in-out;
 }
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-    /* ABOUT MOBILE*/
-.about-maintitle {
-    width: 100% !important;
-height: 100% !important;
-}
-.about-title{
-    font-size: 30px !important;
-line-height: 40px !important;
-}
-    }
 
 /*------------------------------------------------*/
                     /*WORK */
@@ -667,3 +520,322 @@ margin-top: 77px;
     -o-transition: color 1s ease-in-out;
     transition: color 1s ease-in-out;
   }
+  /* 404 PAGE */
+  
+body
+{
+  background-color:#141019;
+  background: radial-gradient(at 50% -20%, #fff, #fff) fixed;
+}
+
+.error-container{
+    margin: 3em;
+}
+#handboy
+{
+   animation: swing ease-in-out 1.3s infinite alternate;
+    transform-origin: 98% 98%;
+    transform-box: fill-box;
+    
+}
+
+
+#girllight
+{
+   animation: swing ease-in-out 1.3s infinite alternate;
+    transform-origin: 0% 97%;
+    transform-box: fill-box;
+}
+
+#hairgirl
+{
+    animation: swinghair ease-in-out 1.3s infinite alternate;
+   transform-origin: 60% 0%;
+    transform-box: fill-box;
+  
+}
+
+#zero
+{
+  transform-origin:bottom;
+  transform-box:fill-box;
+  
+}
+
+/*************swing************/
+@keyframes swing {
+    0% { transform: rotate(10deg); }
+    100% { transform: rotate(-10deg); }
+}
+
+
+/*************swing hair************/
+@keyframes swinghair {
+    0% { transform: rotate(6deg); }
+    100% { transform: rotate(-6deg); }
+}
+
+  /* Smartphones (portrait and landscape) ----------- */
+  @media (min-width: 320px) and (max-width: 500px){
+    body{
+        height: 580px;
+    }
+    .menu{
+        display: flow-root ;
+    }
+    .maintitle{
+        position: relative ;
+    background: none ;
+    width: 100% ;
+    height: 100% ;
+    left: 0 !important ;
+    margin-top: 64px ;
+    }
+    .title{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 3.2em ;
+        line-height: 44px ;
+    }
+    .textbox {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin-top: 20%;
+        left: auto;
+    }
+    .p{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 1em ;
+    line-height: 23px ;
+    }
+    .imgtext-container {
+        height: 200px ;
+    }
+    .img1{
+        width: 250px !important;
+    height: 154px ;
+    left: 41px ;
+    }
+    .worktext{
+        position: absolute ;
+    width: 200px ;
+    height: 200px ;
+    left: 159px ;
+    margin-top: 99px ;
+    }
+    .work-1{
+        font-size: 33px ;
+    line-height: 29px
+    }
+    .list-group-item p{
+        font-size: 12px ;
+    }
+    .about-maintitle {
+        
+        width: 80% !important;
+    height: 100% !important;
+    margin-top: 75px;
+    left: 36px !important;
+    }
+    .about-title{
+        font-size: 30px !important;
+    line-height: 40px !important;
+    }
+    .about-textbox {
+        position: relative !important;
+        width: 80% !important;
+        height: 576px !important;
+        left: 10px !important;
+        margin: 4px !important;
+    }
+    .about-p {
+        font-size: 1em !important;
+        line-height: 20px !important;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .img-about {
+        position: relative !important;
+        width: 85% !important;
+        height: 80% !important;
+        left: 24px !important;
+    }
+    .pro-text {
+        font-size: 28px !important;
+        line-height: 61px !important;
+    }
+    .imgWORK{
+        position: relative !important;
+    width: 80% !important;
+    height: 80% !important;
+    left: 70px !important;
+    margin-top: 34px !important;
+    }
+    .work-text {
+        position: relative !important;
+        width: 100% !important;
+        height: 172px !important;
+        left: 14px !important;
+        margin-top: -311px !important;
+        margin-left: 20px;
+    }
+    .workPRO-1{
+    font-size: 38px !important;
+    line-height: 354px !important;
+    } 
+     .work-textbox {
+        position: relative !important;
+        width: 90% !important;
+        height: 361px !important;
+        left: 18px !important;
+        margin-top: 89px !important;
+    }
+    .work-p{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 1em;
+    }
+    .webtext{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+     .bigimg{
+        position: relative !important;
+    width: 85% !important;
+    height: 80% !important;
+    left: 24px !important;
+    }
+    .project-post-teasers {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem 0rem 3rem;
+        margin-top: 41px;
+    }
+    .footer-title{
+        position: absolute;
+        width: 100% !important;
+        height: 105px !important;
+        left: 60px !important;
+        margin-top: 20px !important;
+        
+    }
+    .foot{
+        font-size: 38px !important;
+        line-height: 40px !important;
+    }
+    .footer-menu{
+        left: 157px !important;
+        margin-top: 110px !important;
+    }
+} 
+
+@media (min-width: 501px) and (max-width: 768px) {
+    .maintitle{
+        left:0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .textbox{
+        left:0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .img1{
+        width: 100% !important;
+        left:0;
+        position: none;
+        padding: 20px 40px 20px 40px;
+    }
+
+.img1 img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+    .worktext{
+        left:24em;
+    }
+.imgWORK{
+    position: inherit;
+    width: 720px;
+    padding: 40px 40px 40px 40px;
+}
+.work-text {
+    position: relative;
+    width: 768px;
+    height: 38px;
+    left: 47px;
+    margin-top: -118px;
+}
+.workPRO-1{
+    font-size: 7.3em;
+    line-height: 198px;
+}
+.work-textbox{
+    left: 70px;
+}
+.bigimg{
+    position: inherit;
+    width: 720px;
+    height: auto;
+    padding: 40px 40px 40px 40px;
+}
+.about-maintitle{
+    left: 0px;
+
+}
+.about-textbox {
+    left: 0px;
+}
+.img-about {
+    position: inherit;
+    width: 720px;
+    height: auto;
+    padding: 40px 40px 40px 40px;
+}
+    .main-footer{
+        width: 768px!important;
+        height: 259px;
+        background: #030000;
+    }
+    .footer-title{
+        width: 597px;
+        height: 105px;
+        left: 6em;
+        margin-top: auto;
+    }
+    .footer-menu{
+    width: 768px;
+    height: 90px;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 9em;
+    }
+    .footer-menu li{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 30px;
+        /* or 176% */  
+        color: #FFFFFF;
+        list-style: none;
+    }  
+    .footer-menu a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    .footer-menu a:hover{
+        color: #da149e;
+        -webkit-transition: color 1s ease-in-out;
+        -moz-transition: color 1s ease-in-out;
+        -ms-transition: color 1s ease-in-out;
+        -o-transition: color 1s ease-in-out;
+        transition: color 1s ease-in-out;
+      }
+ }

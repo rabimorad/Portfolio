@@ -4,7 +4,7 @@
         <div class="work-container">
             <div class="work-textbox">
                 <p class="work-p"><?php echo $big_work['big_work_text'];?></p>
-                    <a class="webtext" href="<?php echo $big_work['big_work_link'];?>"><?php echo $big_work['big_work_link_text'];?></a>
+                    <a class="webtext" target="_blank" href="<?php echo $big_work['big_work_link'];?>"><?php echo $big_work['big_work_link_text'];?></a>
                 </div>
             </div>
         </section>

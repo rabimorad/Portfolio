@@ -12,7 +12,7 @@
         <ul class="list-group list-group-flush">
             <?php foreach($experience as $sub_field): ?>
             <li class="list-group-item">
-                <p><a class="link-work" href="<?php echo $sub_field["list_link"];?>"><?php echo $sub_field["list_name"];?></a></p>
+                <p><a class="link-work" target="_blank" href="<?php echo $sub_field["list_link"];?>"><?php echo $sub_field["list_name"];?></a></p>
                 <p><?php echo $sub_field["list_year"];?></p>
                 <p><?php echo $sub_field["list_work"];?></p> 
             </li>
