@@ -1,0 +1,278 @@
+* {
+    margin:0;
+    padding:0;
+}
+   /* ABOUT */
+   /* HEADER */
+head{
+  position: absolute;
+  width: 93px;
+  height: 0px;
+  left: 1262px;
+  top: 76px;
+  border: 2px solid #000000;
+}
+.poshome{
+  position: absolute;
+  width: 169px;
+  height: 48px;
+  left: 73px;
+  top: 36px;
+}
+.home{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 48px;
+  /* identical to box height, or 171% */
+  color: #000000;
+}
+.home a {
+    color: #000000;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #000000;
+  }
+  .home a:hover{
+    color: #FFFFFF;
+  
+  }
+.posabout{
+  position: absolute;
+  width: 92px;
+  height: 48px;
+  left: 1263px;
+  top: 36px;
+}
+.about{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 48px;
+  /* identical to box height, or 171% */
+  color: #000000;
+  text-decoration: underline;
+  text-shadow: 1px 1px 0 #000000;
+}
+.posprowork{
+    position: absolute;
+    width: 92px;
+    height: 48px;
+    left: 1420px;
+    top: 36px;
+  }
+.prowork{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 48px;
+    /* identical to box height, or 171% */
+    color: #000000;
+}
+.prowork a {
+    color: #000000;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #000000;
+  }
+  .prowork a:hover{
+    color: #FFFFFF;
+  
+  }
+    /* ABOUT TITLE */
+.maintitle{
+  position: absolute;
+  width: 729px;
+  height: 192px;
+  left: 164px;
+  top: 328px;
+}
+.title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 105px;
+  color: #000000;
+}
+    /* ABOUT ME TEXT */
+.textbox{
+  position: absolute;
+  width: 589px;
+  height: 240px;
+  left: 401px;
+  top: 666px;
+}
+.p{
+        font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+
+color: #000000;
+}
+    /* ABOUT IMAGE */
+.imgabout{
+    position: absolute;
+width: 1198px;
+height: 661px;
+left: 170px;
+top: 1003px;
+}
+    /* PROJECT LINKS */
+.project{
+    position: absolute;
+width: 411px;
+height: 57px;
+left: 164px;
+top: 1888px;
+}
+.titletext{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 49px;
+line-height: 57px;
+
+color: #000000;
+}
+.pro1{
+    position: absolute;
+    width: 324px;
+    height: 182px;
+    left: 164px;
+    top: 2037px;
+}
+.pro2{
+    position: absolute;
+    width: 324px;
+    height: 182px;
+    left: 601px;
+    top: 2037px;
+}
+.pro3{
+    position: absolute;
+    width: 324px;
+    height: 182px;
+    left: 1038px;
+    top: 2037px;
+}
+.pro4{
+    position: absolute;
+    width: 324px;
+    height: 182px;
+    left: 164px;
+    top: 2323px;
+}
+.pro5{
+    position: absolute;
+    width: 324px;
+    height: 182px;
+    left: 601px;
+    top: 2323px;
+}
+.pro6{
+    position: absolute;
+    width: 324px;
+    height: 182px;
+    left: 1038px;
+    top: 2323px;
+}
+ /* FOOTER */
+ .mainfooter{
+    position: absolute;
+    width: 100%;
+    height: 259px;
+    left: 0px;
+    top: 2591px;
+    background: #030000;
+}
+.footpos{
+    position: absolute;
+    width: 597px;
+    height: 105px;
+    left: 421px;
+    top: 77px;
+}
+.foottitle{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 90px;
+line-height: 105px;
+
+color: #FFFFFF;
+}
+.social{
+    position: absolute;
+    width: 142px;
+    height: 90px;
+    left: 1420px;
+    top: 77px;
+
+}
+.soc1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+    /* or 176% */ 
+    color: #FFFFFF;
+}
+.soc1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .soc1 a:hover{
+    color: #da149e;
+    -webkit-transition: color 1s ease-in-out;
+    -moz-transition: color 1s ease-in-out;
+    -ms-transition: color 1s ease-in-out;
+    -o-transition: color 1s ease-in-out;
+    transition: color 1s ease-in-out;
+  }
+.soc2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+    /* or 176% */  
+    color: #FFFFFF;
+}
+.soc2 a{
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .soc2 a:hover{
+    color: #da149e;
+    -webkit-transition: color 1s ease-in-out;
+    -moz-transition: color 1s ease-in-out;
+    -ms-transition: color 1s ease-in-out;
+    -o-transition: color 1s ease-in-out;
+    transition: color 1s ease-in-out;
+  }
+.soc3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+    /* or 176% */  
+    color: #FFFFFF;
+}
+.soc3 a{
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  .soc3 a:hover{
+    color: #da149e;
+    -webkit-transition: color 1s ease-in-out;
+    -moz-transition: color 1s ease-in-out;
+    -ms-transition: color 1s ease-in-out;
+    -o-transition: color 1s ease-in-out;
+    transition: color 1s ease-in-out;
+  }
