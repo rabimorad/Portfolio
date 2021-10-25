@@ -6,4 +6,4 @@
                 <p class="about-p"><?php echo $about_text['textbox_about'];?></p>
             </div>
         </div>
-    </section>
+    </section> 

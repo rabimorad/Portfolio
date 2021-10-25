@@ -6,4 +6,4 @@
 <?php get_template_part('./Sections/section-imgtext');?>
 <?php get_template_part('./Sections/section-list');?>
 
-<?php get_footer();?>
+<?php get_footer();?>  

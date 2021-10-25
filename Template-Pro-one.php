@@ -23,7 +23,7 @@
     </div>
     <div>
         <a href="http://localhost/RMportfolio/Project1/"><img class="pro1" src="<?php echo $work_pro['wpro1'];?>" alt=""></a>
-    </div>
+    </div> 
     <div>
         <a href="http://localhost/RMportfolio/Project2/"><img class="pro2" src="<?php echo $work_pro['wpro2'];?>" alt=""></a>
     </div>

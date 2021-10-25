@@ -6,4 +6,4 @@
             <h1 class="about-title"><?php echo $about_me['about_title'];?></h1>
             </div>
         </div>
-    </section>
+    </section> 

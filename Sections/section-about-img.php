@@ -4,4 +4,4 @@
         <div class="container">
             <img class="img-about" src="<?php echo $big_img['bimg'];?>" alt="">
         </div>
-    </section>
+    </section> 

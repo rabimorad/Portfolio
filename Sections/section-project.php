@@ -6,4 +6,4 @@
         <h1 class="pro-text"><?php echo $projects['pro_title'];?></h1>
     </div>
     </div>
-    </section>
+    </section> 

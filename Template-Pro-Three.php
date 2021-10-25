@@ -20,7 +20,7 @@
     <?php $work_pro = get_field('work_pro');?>
     <div class="project">
         <h1 class="titletext"><?php echo $work_pro['work_pro_title'];?></h1>
-    </div>
+    </div> 
     <div>
         <a href="http://localhost/RMportfolio/Project1/"><img class="pro1" src="<?php echo $work_pro['wpro1'];?>" alt=""></a>
     </div>

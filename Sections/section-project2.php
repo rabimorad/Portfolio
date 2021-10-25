@@ -6,5 +6,5 @@
         <h1 class="pro-text"><?php echo $work_pro_title['workpro_title'];?></h1>
     </div>
     </div>
-    </section>
+    </section> 
     
