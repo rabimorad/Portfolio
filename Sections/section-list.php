@@ -15,7 +15,7 @@
                 <p><a class="link-work" target="_blank" href="<?php echo $sub_field["list_link"];?>"><?php echo $sub_field["list_name"];?></a></p>
                 <p><?php echo $sub_field["list_year"];?></p>
                 <p><?php echo $sub_field["list_work"];?></p> 
-            </li>
+            </li> 
             <?php endforeach; ?>
         </ul>
         </section>

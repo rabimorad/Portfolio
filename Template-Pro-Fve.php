@@ -13,7 +13,7 @@
     </div>
     <div class="weblink">
         <a class="webtext" href="https://torgkrogenvisby.se/"><?php echo $big_work['big_work_link'];?></a>    
-    </div>
+    </div> 
     <div>
         <img class="bigimg" src="<?php echo $big_work['big_work_img'];?>" alt="">
     </div>

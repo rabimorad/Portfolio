@@ -14,4 +14,4 @@
                 </article>
                 <?php endforeach; ?>
             </div>         
-        </section>
+        </section> 

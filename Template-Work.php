@@ -5,4 +5,4 @@
 <?php get_template_part('./Sections/section-big-image');?>
 <?php get_template_part('./Sections/section-project2');?>
 <?php get_template_part('./Sections/section-project-image2');?>
-<?php get_footer();?>
+<?php get_footer();?> 

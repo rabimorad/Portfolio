@@ -6,4 +6,4 @@
                 <h1 class="title"><?php echo $big['title'];?></h1>
             </div>
         </div>
-    </section>
+    </section> 

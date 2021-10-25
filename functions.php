@@ -16,7 +16,7 @@ function wpbootstrap_enqueue_styles()
 }
 add_action('wp_enqueue_scripts', 'wpbootstrap_enqueue_styles');
 
-//load scripts
+//load scripts 
 function addjs()
 {
     wp_register_script('scripts',get_template_directory_uri(). '/js/script.js', array(),1,1,1);
